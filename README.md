@@ -1,28 +1,21 @@
-# Video to Art-Net
+#  vid2artnet
 
-このプロジェクトは、OpenCVとstupidArtnetライブラリを使用して、ビデオファイルからフレームを読み取り、それらをArt-Netデータとして送信するものです。
+OpenCVとstupidArtnetライブラリを使用して、ビデオファイルからフレームを読み取り、それらをArt-Netデータとして送信します。（monitor.pyは確認用です）
 
 ## 機能
 
-- ビデオファイル（HAP形式が推奨されます）からフレームを読み取ります。
+- ビデオファイル（HAP形式が推奨）からフレームを読み取ります。
 - フレームのピクセルデータを抽出し、Art-Netデータとして送信します。
-- ビデオの各行に対して、StupidArtnetインスタンスが作成されます。
+- ビデオの各行に対して、StupidArtnetインスタンスが作成されます。(動画の解像度は、"最大ch数"*"ユニバース数"になるようにしてください。)
 
 ## 必要なライブラリ
 
 - OpenCV
 - stupidArtnet
 
-## インストール方法
-
-1. OpenCVとstupidArtnetライブラリをインストールします。
-
 ```bash
 $ pip install stupidartnet opencv-python
 ```
-
-
-2. このリポジトリをクローンまたはダウンロードします。
 
 ## 使用方法
 
