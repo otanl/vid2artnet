@@ -5,7 +5,7 @@ host = '127.0.0.1'  # 送信元IPアドレス
 universe = 0  # universe番号
 
 num_rows = 20
-num_cols = 20
+num_cols = 1
 
 class UDPRcv:
     def __init__(self):
