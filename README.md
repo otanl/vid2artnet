@@ -1,6 +1,6 @@
 #  vid2artnet
 
-OpenCVとstupidArtnetライブラリを使用して、ビデオファイルからフレームを読み取り、それらをArt-Netデータとして送信します。（monitor.pyは確認用です）
+OpenCVとstupidArtnetライブラリを使用して、ビデオファイルからフレームを読み取り、それらをArt-Netデータとして送信します。（monitor.pyはおまけです）
 
 ## 機能
 
@@ -21,4 +21,4 @@ $ pip install stupidartnet opencv-python
 
 1. `TARGET_IP`変数を、Art-Netデータを送信する対象のIPアドレスに設定します。
 2. `cap = cv2.VideoCapture('test.mov')`の`test.mov`を、使用するビデオファイルのパスに変更します。
-3. コードを実行します。
+3. vid2artnet.pyコードを実行します。
